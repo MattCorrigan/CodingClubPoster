@@ -1,0 +1,106 @@
+ index.html
+
+
+<html>
+    <body style="-webkit-print-color-adjust:exact;">
+      
+      <style>
+        @import url('https://raw.githubusercontent.com/todylu/monaco.ttf/master/monaco.ttf');
+        @import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:500,900');
+        
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        html, body {
+          height: 100vh;
+          max-height:100vh;
+          font-size: 24px;
+        }
+        
+        body { 
+          background-repeat: no-repeat;
+          background-position: center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          background-attachment: scroll;
+          height:100vh;
+        }
+        
+        h1 {
+          color: white;
+          font-weight: 900;
+          font-family: "Saira Semi Condensed";
+          font-size: 5rem;
+          margin-left: 50px;
+          padding-top: 80px;
+        }
+        
+        p {
+          line-height: 2rem;
+          font-family: "Saira Semi Condensed";
+          color: white;
+          font-size: 1.25rem;
+        }
+        
+        .bottom {
+          position: absolute;
+          bottom: 20px;
+          margin-left: 20px;
+          font-size:0.8rem;
+        }
+        
+        hr {
+          margin-left:50px;
+          border:0;
+          width: 400px;
+          height:3px;
+          background: linear-gradient(to right, rgba(255,255,255,0), white);
+        }
+        
+        ul {
+          list-style-type: circle;
+          list-style: disc outside none;
+        }
+        
+        ul li {
+          padding-left: 60px;
+          color: white;
+          font-size: 1.25rem;
+          font-family: "Saira Semi Condensed";
+        }
+        
+      </style>
+      
+      <h1>Coding Club</h1>
+      <hr>
+      <p style="padding-left:60px;padding-top:20px;font-size:2rem;">Learn. Code. Connect.</p>
+      <p style="padding-left:60px;padding-top:40px;">First Meeting: August 21<sup>st</sup> @ Room 223 from 3-5<br><br>Learn how to build a:<br>
+      </p>
+      <ul>
+        <li> - Personal Website</li>
+        <li> - iMessage Web App</li>
+        <li> - Games</li>
+        <li> - And much more!</li>
+      </ul>
+      <p style="padding-left: 60px; padding-top:40px">
+      Contact us with any questions you have!
+      </p>
+        
+      <p class="bottom">kim2087@students.d211.org</p>
+      <p class="bottom" style="right: 20px">corrigan1247@students.d211.org</p>
+      <p class="bottom" style="left:0;right:0;margin:0 auto;width:100vw;text-align: center;">cnichols@d211.org</p>
+        
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
+        
+      <script>
+        var pattern = GeoPattern.generate('GigthhHub', {color: "#ff1a1a"});
+        $('body').css('background-image', pattern.toDataUrl());
+      </script>
+  </body>
+</html>
